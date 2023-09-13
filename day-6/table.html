@@ -5,12 +5,28 @@
     <title>table</title>
   </head>
   <body>
-    <h1 style="color: aquamarine;">Table</h1>
+    <h1 style="color: rgb(71, 13, 232); text-align: center;font-size:50px";>Table</h1>
 
-    <table>
+    <style>
+      table,
+      tr,
+      td {
+        border: 2px solid rgb(13, 103, 214);
+        border-collapse: collapse;
+      }
+    </style>
+
+    <table
+      style="
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 40px;
+      "
+    >
       <th>
-        <tr>
-          <td>Sr No</td>
+        <tr style="font-weight: bold">
+          <td>Sr. No.</td>
           <td>Name</td>
           <td>Designation</td>
           <td>Experience</td>
@@ -19,22 +35,28 @@
 
       <tbody>
         <tr>
-            <td>1</td>
-            <td>Vikas</td>
-            <td>Manager</td>
-            <td>10</td>
+          <td>1</td>
+          <td>Vikas</td>
+          <td>Manager</td>
+          <td>10</td>
         </tr>
         <tr>
-            <td>2</td>
-            <td>Ankit</td>
-            <td>CEO</td>
-            <td>20</td>
+          <td>2</td>
+          <td>Ankit</td>
+          <td>CEO</td>
+          <td>20</td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>Mark</td>
-            <td>Software Engg</td>
-            <td>5</td>
+          <td>3</td>
+          <td>Mark</td>
+          <td>Software Engg</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Elon</td>
+          <td>Sr. Software Engg</td>
+          <td>8</td>
         </tr>
       </tbody>
     </table>

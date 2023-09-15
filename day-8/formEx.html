@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Example</title>
+  </head>
+  <style>
+    .formDesign {
+      border: 1px solid #070ed9;
+      text-align: center;
+      background-color: rgb(177, 198, 227);
+      font-family: sans-serif;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+      font-size: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+  </style>
+  <body>
+    <h1>Registration Form</h1>
+
+    <div class="formDesign">
+      <form action="">
+        <br />
+        <label for="name">Name</label>
+        <input type="text" id="name" /><br /><br />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" /><br /><br />
+
+        <label for="pass">Password</label>
+        <input type="password" id="pass" /><br /><br />
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" /><br /><br />
+
+        <label for="gender">Gender</label><br />
+
+        <input type="radio" id="male" value="male" name="gender" />
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" value="female" name="gender" />
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" value="other" name="gender" />
+        <label for="other">Other</label><br /><br />
+
+        <label for="doc">Upload your documents</label><br />
+        <input type="file" id="doc" /><br /><br /><br />
+
+        <input type="checkbox" id="agree" />
+        <label for="agree">I agree to terms & conditions</label><br /><br />
+
+        <input type="submit" value="Register" />
+        <input type="reset" /><br />
+
+        <label for="">Already have an account?</label>
+        <a href="login.html">click here</a><br /><br />
+      </form>
+
+      <iframe
+        src="https://analysisofcybercrimeusingml.000webhostapp.com/"
+        height="230"
+        width="700"
+      ></iframe>
+    </div>
+  </body>
+</html>

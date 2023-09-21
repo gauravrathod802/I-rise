@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Legend Tag</title>
+  </head>
+  <style>
+    fieldset {
+      background-color: rgb(186, 226, 235);
+    }
+    legend {
+      color: #1877f2;
+      font-family: inherit;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    label {
+      color: rgb(12, 3, 3);
+      font-weight: bold;
+      font-size: 20px;
+    }
+    input[type="submit"] {
+      font-size: 20px;
+      background-color: green;
+    }
+    input[type="reset"] {
+      font-size: 20px;
+      background-color: red;
+    }
+  </style>
+
+  <body>
+    <form onsubmit="alert('Login Successful!!')">
+      <fieldset>
+        <legend>SignUp Form</legend>
+        <br />
+        <label for="name">Name</label>
+        <input placeholder="type your name" id="name" /><br /><br />
+
+        <label>Username</label>
+        <input value="Sinchan123" disabled /> <br /><br />
+        <label>Username2</label>
+        <input type="text" value="Shishimaru123" readonly /><br /><br />
+        <!-- difference between readonly and disabled is readonly attribute can send data with form and disabled cannot do this -->
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          minlength="8"
+          maxlength="16"
+          placeholder="create your password"
+          required
+        /><br /><br />
+        <label for="cnfPass">Confirm Password</label>
+        <input
+          type="text"
+          id="cnfPass"
+          minlength="8"
+          maxlength="16"
+          placeholder="confirm password"
+          required
+        /><br /><br />
+
+        <label for="Age">Age</label>
+        <input type="number" min="18" max="60" id="Age" /><br /><br /><br />
+        <input type="submit" value="SignUp" />
+        <input type="reset" />
+      </fieldset>
+    </form>
+    <h1>Canvas</h1>
+    <canvas
+      id="box"
+      width="200"
+      height="100"
+      style="border: 1px double black"
+    ></canvas>
+  </body>
+</html>

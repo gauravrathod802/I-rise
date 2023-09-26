@@ -6,6 +6,10 @@ class hello{
         System.out.println("this is string");
         System.out.println("this is second line");
 
+        int arr[]={10,20,30};
+        main(arr);
+        char[] c={'c','a','t'};
+        main(c);
         
     }
      public static void main(int[] s) {
@@ -13,6 +17,8 @@ class hello{
         System.out.println(s[1]);
         System.out.println(s[2]);
         System.out.println("this is integer");
+        String[] arr={"hi","my","name","is","gaurav"};
+        main(arr);
 
         
     }

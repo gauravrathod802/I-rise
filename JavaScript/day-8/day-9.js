@@ -19,10 +19,11 @@ console.log(myObjectEx.total)
 
 var name1 = ["gaurav", "vikas", "vinu"];
 // JSON.stringify(name)    convert js into json
-// JSON.stringify(name)    convert json to js
+// JSON.parse(name)    convert json to js
 localStorage.setItem("studentName", JSON.stringify(name1));   //store
 var data=localStorage.getItem("studentName")
 console.log(data,"data is printed")
+// for getting output on console we need to convert that JSON to js 
 var nameList=JSON.parse(localStorage.getItem("myKey"))
 console.log(studentName ,"data on console")
 // localStorage.removeItem("student")

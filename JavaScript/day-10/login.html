@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <script src="./Login.js"></script>
   </head>
   <body>
-    <form action="">
+    <form onsubmit="Login(event)">
       <h1>Login Page</h1>
       <label for="username">Username</label><br />
-      <input type="text" id="username" /><br />
+      <input type="email" id="username" required/><br />
       <label for="password">Password</label><br />
-      <input type="password" id="password" /><br /><br />
-      <input type="button" value="submit" />
-      <input type="reset" value="reset" id="reset" />
+      <input type="password" id="password" required/><br /><br />
+      <input type="submit" />
+      <input type="reset"  />
     </form>
   </body>
 </html>
